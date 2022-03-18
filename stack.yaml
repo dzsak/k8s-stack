@@ -9,3 +9,5 @@ config:
     host: adam.dzsak
   prometheus:
     enabled: true
+  tempo:
+    enabled: true
