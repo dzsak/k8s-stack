@@ -1,0 +1,7 @@
+---
+stack:
+  repository: https://github.com/gimlet-io/gimlet-stack-reference.git?tag=v0.14.8
+config:
+  nginx:
+    enabled: true
+    host: adam@adam.adam
