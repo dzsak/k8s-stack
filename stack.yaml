@@ -2,6 +2,39 @@
 stack:
   repository: https://github.com/gimlet-io/gimlet-stack-reference.git?tag=v0.14.8
 config:
+  certManager:
+    email: adam@adam.adam
+    enabled: true
+  civo:
+    enabled: true
+  externalSecrets:
+    enabled: true
+  gimletAgent:
+    enabled: true
+  gimletDashboard:
+    enabled: true
+    githubPrivateKey: key123
+  gimletd:
+    deployKey: key123
+    enabled: true
+  grafanaCloud:
+    enabled: true
+  kyverno:
+    enabled: true
+  loki:
+    enabled: true
+    storage:
+      retentionDays: 1
   nginx:
     enabled: true
     host: adam@adam.adam
+  oauth2Proxy:
+    enabled: true
+  prometheus:
+    enabled: true
+    grafanaCloud:
+      enabled: true
+  sealedSecrets:
+    enabled: true
+  tempo:
+    enabled: true

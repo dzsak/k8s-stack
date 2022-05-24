@@ -17,8 +17,6 @@ spec:
       interval: 10m
   values:
     controller:
-      service:
-        externalTrafficPolicy: Local
       metrics:
         enabled: true
         service:
